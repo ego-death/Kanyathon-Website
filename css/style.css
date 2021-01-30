@@ -4,29 +4,16 @@
 
 }
 
-/* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
-}
-
-.clear {
-	clear: both;
-}
-
 body{
 	background: black;
 	color: white;
+	font-family: 'Roboto', sans-serif;
 }
 
 header{
 	position: relative;
 	padding-top: 10px;
-	padding-left: 100px;
+	padding-left: 60px;
 	text-align: left;
 	background: #212623;
 	height: 200px;
@@ -34,13 +21,14 @@ header{
 }
 
 .links *{
+	color: #20a5e3;
 	margin-right: 20px;
 }
 
 #logo{
 	position: absolute;
 	top: 15px;
-	right: 130px;
+	right: 200px;
 	height: 170px;
 	width: 15%;
 }
@@ -79,13 +67,13 @@ header{
 #coolCarousel{
 	position: relative;
 	margin: 40px 0;
-	border: 5px solid grey;
 	height: 400px;
 }
 
 .carouselMessage{
-	margin-top: 20px;
-	font-size: 40px;
+	padding-left: 50px;
+	margin-top: 30px;
+	font-size: 35px;
 	float: left;
 	width: 33.3333%;
 }
@@ -127,5 +115,36 @@ header{
 	top: 164px;
 	right: 30px;
 }
+.chooseGame{
+	height: 350px;
+}
+
+.chooseGame img{
+	width: 50%;
+	float: left;
+	height: 300px;
+}
+
+
+span{
+	font-size: 30px;
+	margin-bottom: 10px;
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.links a:hover{
+	color: red;
+}
+
+footer{
+	margin-top: 30px;
+}
+
+h4{
+	text-align: center;
+}
+
 
 

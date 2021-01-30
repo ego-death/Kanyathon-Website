@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body{
+	background: black;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+header{
+	position: relative;
+	padding-top: 10px;
+	padding-left: 60px;
+	text-align: left;
+	background: #212623;
+	height: 200px;
+	margin-top: 0px;
+}
+
+.links *{
+	color: #20a5e3;
+	margin-right: 20px;
+}
+
+.links *:hover{
+	color: yellow;
+}
+
+#logo{
+	position: absolute;
+	top: 15px;
+	right: 30px;
+	height: 170px;
+	width: 15%;
+}
+
+footer{
+	margin-top: 30px;
+}
+
+h4{
+	text-align: center;
+}
+/*start styles here*/
+
+#codBackground{
+	width:100%;
+}
+
+#theTitle{
+	text-align: center;
+	font-size: 50px;
+}
+
+#ins{
+	text-align: center;
+}
+
+.choice{
+	text-align: center;
+	color: red;
+}
+
+.choice:hover{
+	color: yellow;
+}
+
+.displayInfo{
+	text-align: center;
+	height: 80px;
+	display: none;
+	margin-bottom: 80px;
+	padding: 20px;
+}
+
+#putInfo{
+	font-size: 30px;
+}
+
+#regLink{
+	border: 5px solid yellow;
+	border-radius: 4%;
+	width: 20%;
+	background: #050b63;
+	font-size: 30px;
+	display: block;
+	margin: 0 auto;
+	text-decoration: none;
+	color: red;
+	text-align: center;
+	padding: 20px;
+}
+
+#regLink:hover{
+	color: yellow;
+}
+
+#current{
+	font-weight: bold;
+}
