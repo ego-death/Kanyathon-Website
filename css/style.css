@@ -1,6 +1,7 @@
 /* Box Model Hack */
 * {
   box-sizing: border-box;
+
 }
 
 /* Clear fix hack */
@@ -21,3 +22,110 @@ body{
 	background: black;
 	color: white;
 }
+
+header{
+	position: relative;
+	padding-top: 10px;
+	padding-left: 100px;
+	text-align: left;
+	background: #212623;
+	height: 200px;
+	margin-top: 0px;
+}
+
+.links *{
+	margin-right: 20px;
+}
+
+#logo{
+	position: absolute;
+	top: 15px;
+	right: 130px;
+	height: 170px;
+	width: 15%;
+}
+
+#overview{
+	text-align: center;
+}
+
+
+.sec1{
+	border: 5px solid grey;
+	height: 300px;
+}
+
+.floatSec1{
+	margin-top: 30px;
+	margin-left: 30px;
+	float: left;
+	width: 50%;
+}
+
+.regInfo{
+	width: auto;
+	float: left;
+	margin-top: 30px;
+}
+
+.regInfo h2{
+	margin-left: 4%;
+}
+
+.regInfo li{
+	color: red;
+}
+
+#coolCarousel{
+	position: relative;
+	margin: 40px 0;
+	border: 5px solid grey;
+	height: 400px;
+}
+
+.carouselMessage{
+	margin-top: 20px;
+	font-size: 40px;
+	float: left;
+	width: 33.3333%;
+}
+
+.imageContainer{
+	float: left;
+	width: 66.6666%;
+}
+
+.imageContainer img{
+	padding: 10px;
+	border: 5px solid red;
+	border-radius: 10%;
+	margin-left: 40%;
+	margin-top: 20px;
+	width: 50%;
+	height:350px;
+}
+
+.hidden{
+	display: none;
+}
+
+#leftBtn, #rightBtn{
+	position: absolute;
+	border-radius: 50%;
+	height: 50px;
+	width: 3%;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#leftBtn{
+	top: 164px;
+	right: 630px;
+}
+
+#rightBtn{
+	top: 164px;
+	right: 30px;
+}
+
+
