@@ -1,2 +1,2 @@
 # Kanyathon-Website
-This is an gaming website for the Kanyathon event.
+This is a gaming website for the Kanyathon event.
