@@ -15,6 +15,12 @@ for(const choice of arrOfChoices){
 	choice.addEventListener('click', function(e){
 		for(const prop in textObj){
 			if(e.target.innerText.toLowerCase()==prop){
+				if(!(block.classList.value.split(" ").includes("w3-animate-opacity"))){
+					block.classList.add("w3-animate-opacity");
+				}
+					setTimeout(function(){
+						block.classList.remove("w3-animate-opacity");
+					}, 500);
 				block.style.display="block";
 				information.innerText=textObj[prop];
 			}

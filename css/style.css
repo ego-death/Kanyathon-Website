@@ -20,6 +20,13 @@ header{
 	margin-top: 0px;
 }
 
+#carouselBackground{
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	height: 700px;
+}
+
 .links *{
 	color: #20a5e3;
 	margin-right: 20px;
@@ -28,7 +35,7 @@ header{
 #logo{
 	position: absolute;
 	top: 15px;
-	right: 200px;
+	right: 30px;
 	height: 170px;
 	width: 15%;
 }
@@ -107,13 +114,13 @@ header{
 }
 
 #leftBtn{
-	top: 164px;
-	right: 630px;
+	top: 311px;
+	right: 1425px;
 }
 
 #rightBtn{
-	top: 164px;
-	right: 30px;
+	top: 311px;
+	right: 50px;
 }
 .chooseGame{
 	height: 350px;
@@ -135,7 +142,7 @@ span{
 }
 
 .links a:hover{
-	color: red;
+	color: yellow;
 }
 
 footer{
@@ -144,6 +151,14 @@ footer{
 
 h4{
 	text-align: center;
+}
+
+#overview{
+	margin-top:350px;
+}
+
+#current{
+	font-weight: bold;
 }
 
 

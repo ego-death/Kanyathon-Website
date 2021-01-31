@@ -1,0 +1,5 @@
+END OF DAY 2 COMMIT - TODO LIST:
+
+-> maybe fix animations a bit.
+-> margin correction on info links on codm.html and valorant.html
+-> mobile responsiveness will be a HEADACHE. Make sure it's done day by day if approval is given to carry on.

@@ -1,6 +1,6 @@
 END OF DAY1 COMMIT AND TODO-LIST:
--> rework the entire carousel for overview landing page. make it similar to codm and valorant info pages.
--> add 'About Kanyathon' and 'Registration' pages ASAP tomorrow.
--> get form for registration done. might need to setup a database. otherwise use email to get the database.
--> try and figure out payment options
--> fuck mobile responsiveness. show page first, get approval and then work on mobile design xD
+-> rework the entire carousel for overview landing page. make it similar to codm and valorant info pages. - DONE
+-> add 'About Kanyathon' and 'Registration' pages ASAP tomorrow. - DONE (Fuck About Kanyathon do it later aight)
+-> get form for registration done. might need to setup a database. otherwise use email to get the database. - DONE
+-> try and figure out payment options - IDK DISCUSS ON MONDAY
+-> fuck mobile responsiveness. show page first, get approval and then work on mobile design xD - ok
